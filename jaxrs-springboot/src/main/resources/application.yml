@@ -1,0 +1,4 @@
+server:
+    port: 9000
+ws:
+    url: http://localhost:${server.port}/hello
